@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Mochiy+Pop+P+One&display=swap");
 .App {
   text-align: center;
 }
@@ -14,8 +16,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  /* background-color: #282c34;*/
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +37,219 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  position: relative;
+  height: 100vh;
+}
+
+.home-container {
+  text-align: center;
+  padding: 20px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+.home-container.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.image-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.animated-image {
+  width: 100%;
+  height: auto;
+  max-width: 1200px;
+  border-radius: 8px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.animated-image:hover {
+  transform: scale(1.1);
+}
+
+.scroll-indicator {
+  margin-top: 20px;
+  font-style: italic;
+  opacity: 0.7;
+}
+
+.paragrafi {
+  max-width: 1200px; /* Larghezza massima del contenitore dei paragrafi */
+  margin: 0 auto;
+  color: rgb(61, 77, 37);
+  font-family: "Just Another Hand", cursive;
+  font-size: 35px;
+  text-align: left; /* Allinea il testo al centro */
+}
+.paragrafi img {
+  max-width: 100%; /* Assicurati che le immagini siano responsive e non superino la larghezza del loro contenitore */
+}
+p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+h1 {
+  position: relative;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  color: #ff9900; /* Colore del testo */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombra del testo */
+  font-size: 60px;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+
+h2 {
+  padding-top: 2rem;
+  color: #ff9900;
+  font-size: 30px;
+  font-family: "Mochiy Pop P One", sans-serif;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+/* Aggiungi questo stile al tuo file CSS */
+.home-container.visible h1,
+.home-container.visible h2 {
+  opacity: 1;
+  transform: translateY(0);
+}
+.recipe-link {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: rgb(222, 236, 17); /* Giallo bergamotto */
+  color: #ff9900;
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: 1s ease;
+  margin-left: 20px;
+}
+
+.recipe-link:hover {
+  background-color: #075707; /* Giallo più scuro al passaggio del mouse */
+}
+.video-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0; /* Riduci lo spazio tra i video */
+}
+
+.video-wrapper {
+  width: 48%; /* Riduci la larghezza del wrapper al 48% */
+  max-width: 560px;
+  border: 1px;
+  border-radius: 50px; /* Rendi il bordo più arrotondato */
+  overflow: hidden;
+}
+.mappa {
+  border-radius: 50px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  color: #ff9900;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.footer.visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.footer-content {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-section:last-child {
+  margin-right: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.footer-section a {
+  color: #075707;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.MyFooter ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.MyFooter li {
+  margin-bottom: 10px;
+}
+
+.MyFooter a {
+  color: #075707;
+  text-decoration: none;
+}
+
+.MyFooter a:hover {
+  text-decoration: underline;
+}
+
+.green {
+  color: #075707;
+}
+
+.footer.show {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.scroll-effect {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.scroll-effect.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
