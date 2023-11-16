@@ -28,20 +28,26 @@ const MyFooter = () => {
           <h3>Collegamenti Utili</h3>
           <ul>
             <li>
-              <a href="#">Ricette al Bergamotto</a>
+              <a href="https://cookpad.com/it/cerca/bergamotto">
+                Ricette al Bergamotto
+              </a>
             </li>
             <li>
-              <a href="#">Proprietà del Bergamotto</a>
+              <a href="https://www.cure-naturali.it/enciclopedia-naturale/alimentazione/nutrizione/bergamotto-proprieta-e-calorie.html">
+                Proprietà del Bergamotto
+              </a>
             </li>
             <li>
-              <a href="#">Notizie dal Mondo del Bergamotto</a>
+              <a href="https://www.ilgolosario.it/it/bergamotto-agrume-calabria">
+                Notizie dal Mondo del Bergamotto
+              </a>
             </li>
           </ul>
         </div>
         <div className="footer-section">
           <h3>Contattaci</h3>
-          <p className="green">Email: info@bergamotto.com</p>
-          <p className="green">Telefono: +39 123 456 789</p>
+          <p className="green">Email: luca.pratico@live.it</p>
+          <p className="green">Telefono: +39 3464105830</p>
         </div>
         <div className="footer-section">
           <h3>Seguici</h3>
@@ -59,13 +65,19 @@ const MyFooter = () => {
           <h3>Altri Link</h3>
           <ul>
             <li>
-              <a href="#">Eventi Bergamottiani</a>
+              <a href="https://www.touringclub.it/notizie-di-viaggio/bergare-un-evento-per-scoprire-il-bergamotto-di-reggio-calabria">
+                Eventi Bergamottiani
+              </a>
             </li>
             <li>
-              <a href="#">Acquista Bergamotto Online</a>
+              <a href="https://www.essenzabergamotto.com/prodotto/bergamotto-frutto-fresco/?gclid=Cj0KCQiAmNeqBhD4ARIsADsYfTetVTrcg6_SWZsJ9mhheqibtAWqwHjY1ZPJn7cU47xlOfsJAREGBmQaApOWEALw_wcB">
+                Acquista Bergamotto Online
+              </a>
             </li>
             <li>
-              <a href="#">Bergamotto nel Mondo</a>
+              <a href="https://agricolae.eu/bergamotto-e-il-made-in-italy-piu-esportato-con-il-99/?print=print#:~:text=Oltre%20il%2090%25%20della%20produzione,di%2020.000%20tonnellate%20di%20frutto.">
+                Bergamotto nel Mondo
+              </a>
             </li>
           </ul>
         </div>
