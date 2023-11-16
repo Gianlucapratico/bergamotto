@@ -21,6 +21,7 @@ const MyFooter = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
   return (
     <footer className={`footer ${showFooter ? "show" : ""}`}>
       <div className="footer-content">
@@ -28,17 +29,29 @@ const MyFooter = () => {
           <h3>Collegamenti Utili</h3>
           <ul>
             <li>
-              <a href="https://cookpad.com/it/cerca/bergamotto">
+              <a
+                href="https://cookpad.com/it/cerca/bergamotto"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Ricette al Bergamotto
               </a>
             </li>
             <li>
-              <a href="https://www.cure-naturali.it/enciclopedia-naturale/alimentazione/nutrizione/bergamotto-proprieta-e-calorie.html">
+              <a
+                href="https://www.cure-naturali.it/enciclopedia-naturale/alimentazione/nutrizione/bergamotto-proprieta-e-calorie.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Proprietà del Bergamotto
               </a>
             </li>
             <li>
-              <a href="https://www.ilgolosario.it/it/bergamotto-agrume-calabria">
+              <a
+                href="https://www.ilgolosario.it/it/bergamotto-agrume-calabria"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Notizie dal Mondo del Bergamotto
               </a>
             </li>
@@ -52,12 +65,30 @@ const MyFooter = () => {
         <div className="footer-section">
           <h3>Seguici</h3>
           <p>
-            <a href="https://www.facebook.com/luca.pratico1/">Facebook</a>
+            <a
+              href="https://www.facebook.com/luca.pratico1/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Facebook
+            </a>
           </p>
-
           <p>
-            <a href="https://www.linkedin.com/in/gianluca-pratic%C3%B2/">
+            <a
+              href="https://www.linkedin.com/in/gianluca-pratic%C3%B2/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Linkedin
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://github.com/Gianlucapratico"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
             </a>
           </p>
         </div>
@@ -65,17 +96,29 @@ const MyFooter = () => {
           <h3>Altri Link</h3>
           <ul>
             <li>
-              <a href="https://www.touringclub.it/notizie-di-viaggio/bergare-un-evento-per-scoprire-il-bergamotto-di-reggio-calabria">
+              <a
+                href="https://www.touringclub.it/notizie-di-viaggio/bergare-un-evento-per-scoprire-il-bergamotto"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Eventi Bergamottiani
               </a>
             </li>
             <li>
-              <a href="https://www.essenzabergamotto.com/prodotto/bergamotto-frutto-fresco/?gclid=Cj0KCQiAmNeqBhD4ARIsADsYfTetVTrcg6_SWZsJ9mhheqibtAWqwHjY1ZPJn7cU47xlOfsJAREGBmQaApOWEALw_wcB">
+              <a
+                href="https://www.essenzabergamotto.com/prodotto/bergamotto-frutto-fresco/?gclid=Cj0KCQiAmNeqBhD4ARIsADsYfTetVTrcg6_SWZsJ9mhheqibtAWqwHjY1ZPJn7cU47xlOfsJAREGBmQaApOWEALw_wcB"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Acquista Bergamotto Online
               </a>
             </li>
             <li>
-              <a href="https://agricolae.eu/bergamotto-e-il-made-in-italy-piu-esportato-con-il-99/?print=print#:~:text=Oltre%20il%2090%25%20della%20produzione,di%2020.000%20tonnellate%20di%20frutto.">
+              <a
+                href="https://agricolae.eu/bergamotto-e-il-made-in-italy-piu-esportato-con-il-99/?print=print#:~:text=Oltre%20il%2090%25%20della%20produzione,di%2020.000%20tonnellate%20di%20frutto."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Bergamotto nel Mondo
               </a>
             </li>
