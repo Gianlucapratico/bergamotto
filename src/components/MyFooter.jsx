@@ -46,13 +46,13 @@ const MyFooter = () => {
         <div className="footer-section">
           <h3>Seguici</h3>
           <p>
-            <a href="#">Facebook</a>
+            <a href="https://www.facebook.com/luca.pratico1/">Facebook</a>
           </p>
+
           <p>
-            <a href="#">Instagram</a>
-          </p>
-          <p>
-            <a href="#">Twitter</a>
+            <a href="https://www.linkedin.com/in/gianluca-pratic%C3%B2/">
+              Linkedin
+            </a>
           </p>
         </div>
         <div className="footer-section">
